@@ -1,0 +1,170 @@
+body{
+    background: #1f242c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+.wrapper{
+    width:100%;
+    width:1060px;
+    margin:0 auto;
+}
+
+.container{
+    border:2px solid #101316;
+    border-radius:5px;
+}
+
+/* NAVBAR */
+.navbar ul{
+    float:left;
+}
+
+input{
+    float:right;
+}
+.navbar ul li{
+    float:left;
+    padding:20px 20px;
+    display:block;
+    border-right: 2px solid #212121;
+    border-left: 1px solid #353940;
+    border-top:1px solid #353940;
+    border-bottom: 1px solid #353940;
+}
+
+.navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width:100%;
+    color:#8e8e8f;
+}
+
+input{
+    border:1px solid black;
+    padding:10px;
+    width:240px;
+    margin:10px 10px 10px 0px;
+    background: #272c33;
+}
+.banner img{
+    width:100%;
+}
+
+#main ul li{
+    float:left;
+    width:30%;
+    margin-left:3%;
+}
+
+#main{
+    background:#fff;
+    padding:0;
+}
+
+#main ul li img{
+    width:90%;
+    margin:20px 0px 30px 0px;
+    padding:5px;
+    border:1px solid #c6c6c6;
+}
+
+#main:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main ul li h3{
+    padding:30px 20px 20px 0px;
+    color:#474747;
+    margin:0;
+}
+
+#main ul li p{
+    color:#878787;
+}
+
+.upper ul li{
+    float:left;
+    color:#a1a1a1;
+    font-weight: bold;
+    padding:20px;
+    width:20%;
+
+}
+
+.upper:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+.upper{
+    border-bottom: 2px solid #101316;
+    border-top: 2px solid #101316
+}
+
+.lower ul {
+    float:left;
+    width:25%;
+    padding-top:10px;
+}
+
+.lower:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lower ul li{
+    font-size: 14px;
+    padding-left: 20px;
+    line-height: 1.4em;
+    color:#a7a7a7;
+}
+
+ul#last li{
+    line-height: 1.6em;
+    
+}
+
+ul#last li img{
+    margin-top:10px;
+
+}
+
+ul.list li{
+    line-height: 1.6em;
+}
+
+li.icon{
+    
+    background: url(images/icon-1.png)no-repeat left 6px ;
+}
+
+li.icon1{
+    background: url(images/icon-2.png)no-repeat left 6px ;
+}
+
+li.icon2{
+    background: url(images/icon-3.png)no-repeat left 6px ;
+}
+
+li.icon3{
+    background: url(images/icon-4.png)no-repeat left 6px ;
+}
+
+li.icon4{
+    background: url(images/icon-5.png)no-repeat left 12px ;
+}
+
+.container{
+    box-shadow: 0px 30px 35px #020203 ;
+}
